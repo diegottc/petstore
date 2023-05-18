@@ -1,0 +1,99 @@
+_id: req_a837fdd7d78941fdb40b99ad3fbfe2ee
+type: Request
+parentId: fld_af035d0d4cd8480eb5cc0836bf1e0ea1
+modified: 1684377766773
+created: 1684377766773
+url: "{{baseUrl}}/user/createWithArray"
+name: Creates list of users with given input array
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    [
+        {
+            "id": 76350402,
+            "pet": {
+                "name": "Guru",
+                "photoUrls": [
+                    "sed pariatur",
+                    "dolore minim nostrud"
+                ],
+                "id": -74332934,
+                "category": {
+                    "id": -67953842,
+                    "name": "ex labore",
+                    "sub": {
+                        "prop1": "commodo magna laboris"
+                    }
+                },
+                "friend": {
+                    "value": "<Circular reference to #/components/schemas/Pet detected>"
+                },
+                "tags": [
+                    {
+                        "id": -51150682,
+                        "name": "Duis irure"
+                    }
+                ],
+                "status": "pending",
+                "petType": "cillum"
+            },
+            "username": "John78",
+            "firstName": "John",
+            "lastName": "Smith",
+            "email": "john.smith@example.com",
+            "password": "// // // //",
+            "phone": "/+38-707-80-81-6/",
+            "userStatus": -89473261
+        },
+        {
+            "id": 96547787,
+            "pet": {
+                "name": "Guru",
+                "photoUrls": [
+                    "velit veniam",
+                    "ea eu"
+                ],
+                "id": 37156173,
+                "category": {
+                    "id": 5149870,
+                    "name": "Excepteur commodo",
+                    "sub": {
+                        "prop1": "enim anim ipsum cillum"
+                    }
+                },
+                "friend": {
+                    "value": "<Circular reference to #/components/schemas/Pet detected>"
+                },
+                "tags": [
+                    {
+                        "id": 16741606,
+                        "name": "est commodo"
+                    }
+                ],
+                "status": "pending",
+                "petType": "culpa"
+            },
+            "username": "John78",
+            "firstName": "John",
+            "lastName": "Smith",
+            "email": "john.smith@example.com",
+            "password": "// // // //",
+            "phone": "/+3-0-9-8-6-786-047-392-0/",
+            "userStatus": -28483941
+        }
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684377766773
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_ae900daefdbe4b01a9bf0bb4edf63424
+type: Request
+parentId: fld_6474fd2c5bfc4105b210f32705e2a4b0
+modified: 1684377766768
+created: 1684377766768
+url: "{{baseUrl}}/store/inventory"
+name: Returns pet inventories by status
+description: Returns a map of status codes to quantities
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: apikey
+  key: api_key
+  value: ""
+  addTo: header
+  disabled: false
+metaSortKey: -1684377766768
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

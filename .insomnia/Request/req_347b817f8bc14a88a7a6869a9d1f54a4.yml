@@ -1,0 +1,33 @@
+_id: req_347b817f8bc14a88a7a6869a9d1f54a4
+type: Request
+parentId: fld_6fc15ed727074511a3b99a8c0bae2b3f
+modified: 1684377766767
+created: 1684377766767
+url: "{{baseUrl}}/store/order"
+name: Place an order for a pet
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "id": 47323114,
+        "petId": 45172571,
+        "quantity": 1,
+        "shipDate": "1975-07-17T06:24:48.658Z",
+        "status": "approved",
+        "requestId": "laboris qui ea in cupidatat"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684377766767
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

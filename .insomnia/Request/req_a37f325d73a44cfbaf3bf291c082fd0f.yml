@@ -1,0 +1,25 @@
+_id: req_a37f325d73a44cfbaf3bf291c082fd0f
+type: Request
+parentId: fld_dcd55d84216046adb5f09cd6c9145614
+modified: 1684377766757
+created: 1684377766757
+url: "{{baseUrl}}/pet/:petId/uploadImage"
+name: uploads an image
+description: ""
+method: POST
+body:
+  mimeType: application/octet-stream
+  text: '"sint commodo"'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/octet-stream
+authentication: {}
+metaSortKey: -1684377766757
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

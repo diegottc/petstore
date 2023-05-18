@@ -1,0 +1,29 @@
+_id: req_c95fd903fc57404eac1d902dbcd484e1
+type: Request
+parentId: fld_6474fd2c5bfc4105b210f32705e2a4b0
+modified: 1684377766769
+created: 1684377766769
+url: "{{baseUrl}}/store/subscribe"
+name: Subscribe to the Store events
+description: Add subscription for a store events
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "callbackUrl": "https://myserver.com/send/callback/here",
+        "eventName": "orderInProgress"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684377766769
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

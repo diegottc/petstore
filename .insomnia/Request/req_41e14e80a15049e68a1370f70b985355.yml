@@ -1,0 +1,61 @@
+_id: req_41e14e80a15049e68a1370f70b985355
+type: Request
+parentId: fld_312d4d9b5f2f4496b0941765e6f02898
+modified: 1684377766771
+created: 1684377766771
+url: "{{baseUrl}}/user/:username"
+name: Updated user
+description: This can only be done by the logged in user.
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "id": -20393415,
+        "pet": {
+            "name": "Guru",
+            "photoUrls": [
+                "reprehenderit quis dolore",
+                "eiusmod elit"
+            ],
+            "id": -64669817,
+            "category": {
+                "id": -35660533,
+                "name": "id consectetur",
+                "sub": {
+                    "prop1": "paria"
+                }
+            },
+            "friend": {
+                "value": "<Circular reference to #/components/schemas/Pet detected>"
+            },
+            "tags": [
+                {
+                    "id": 49327673,
+                    "name": "aliquip ut"
+                }
+            ],
+            "status": "pending",
+            "petType": "Excepteur"
+        },
+        "username": "John78",
+        "firstName": "John",
+        "lastName": "Smith",
+        "email": "john.smith@example.com",
+        "password": "// // // //",
+        "phone": "/+5-8498-9-09-80-0-06/",
+        "userStatus": -9981210
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684377766771
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_a8a5e6d0703a44ec80c14d7876ada9d4
+type: Request
+parentId: fld_7082256845b744e28b78ba95f7d55a69
+modified: 1684377766763
+created: 1684377766763
+url: "{{baseUrl}}/pet/findByTags"
+name: Finds Pets by tags
+description: Multiple tags can be provided with comma separated strings. Use
+  tag1, tag2, tag3 for testing.
+method: GET
+body: {}
+parameters:
+  - name: tags
+    value: in dolore qui Lorem
+    disabled: false
+  - name: tags
+    value: fugiat
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1684377766763
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

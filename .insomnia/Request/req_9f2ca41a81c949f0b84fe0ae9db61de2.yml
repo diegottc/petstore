@@ -1,0 +1,22 @@
+_id: req_9f2ca41a81c949f0b84fe0ae9db61de2
+type: Request
+parentId: fld_101bfc99a8d14228b13862d6e6dbb8e1
+modified: 1684377766767
+created: 1684377766767
+url: "{{baseUrl}}/store/order/:orderId"
+name: Delete purchase order by ID
+description: For valid response try integer IDs with value < 1000. Anything
+  above 1000 or nonintegers will generate API errors
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1684377766767
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,53 @@
+_id: req_1cb3171dec714223ae2cb8d9490dc901
+type: Request
+parentId: fld_7082256845b744e28b78ba95f7d55a69
+modified: 1684377766760
+created: 1684377766760
+url: "{{baseUrl}}/pet"
+name: Add a new pet to the store
+description: Add new pet to the store inventory.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Guru",
+        "photoUrls": [
+            "",
+            "nulla fugiat dolor exercitation magna"
+        ],
+        "id": -57576282,
+        "category": {
+            "id": 11160318,
+            "name": "laboris minim",
+            "sub": {
+                "prop1": "esse ea"
+            }
+        },
+        "friend": {
+            "value": "<Circular reference to #/components/schemas/Pet detected>"
+        },
+        "tags": [
+            {
+                "id": 76998725,
+                "name": "cillum sunt"
+            }
+        ],
+        "status": "available",
+        "petType": "adipisicing in labore mollit"
+    }
+parameters: []
+headers:
+  - name: Accept-Language
+    value: en-US
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684377766760
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

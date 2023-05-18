@@ -1,0 +1,21 @@
+_id: req_3c7787c2310e4f94967ee9c1154a2ddf
+type: Request
+parentId: fld_312d4d9b5f2f4496b0941765e6f02898
+modified: 1684377766772
+created: 1684377766772
+url: "{{baseUrl}}/user/:username"
+name: Delete user
+description: This can only be done by the logged in user.
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1684377766772
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

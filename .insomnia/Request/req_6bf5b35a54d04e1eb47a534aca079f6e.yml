@@ -1,0 +1,27 @@
+_id: req_6bf5b35a54d04e1eb47a534aca079f6e
+type: Request
+parentId: fld_af035d0d4cd8480eb5cc0836bf1e0ea1
+modified: 1684377766775
+created: 1684377766775
+url: "{{baseUrl}}/user/login"
+name: Logs user into the system
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: username
+    value: sint commodo
+    disabled: false
+  - name: password
+    value: sint commodo
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1684377766775
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

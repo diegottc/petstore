@@ -1,0 +1,99 @@
+_id: req_426989cd1fff46baa770e44200c25c3c
+type: Request
+parentId: fld_af035d0d4cd8480eb5cc0836bf1e0ea1
+modified: 1684377766774
+created: 1684377766774
+url: "{{baseUrl}}/user/createWithList"
+name: Creates list of users with given input array
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    [
+        {
+            "id": 51435618,
+            "pet": {
+                "name": "Guru",
+                "photoUrls": [
+                    "incididunt amet",
+                    "proident veniam voluptate reprehenderit incididunt"
+                ],
+                "id": 23412593,
+                "category": {
+                    "id": -39871618,
+                    "name": "ullamco deserunt incididunt",
+                    "sub": {
+                        "prop1": "consectetur officia"
+                    }
+                },
+                "friend": {
+                    "value": "<Circular reference to #/components/schemas/Pet detected>"
+                },
+                "tags": [
+                    {
+                        "id": 31393343,
+                        "name": "nisi tempor cillum nostrud do"
+                    }
+                ],
+                "status": "pending",
+                "petType": "cupidatat tempor et ex eu"
+            },
+            "username": "John78",
+            "firstName": "John",
+            "lastName": "Smith",
+            "email": "john.smith@example.com",
+            "password": "// // // //",
+            "phone": "/+6-8-004-4-5-41/",
+            "userStatus": 63129612
+        },
+        {
+            "id": -21854692,
+            "pet": {
+                "name": "Guru",
+                "photoUrls": [
+                    "ad",
+                    "ex"
+                ],
+                "id": -92406936,
+                "category": {
+                    "id": 31295736,
+                    "name": "aute dolor id qui",
+                    "sub": {
+                        "prop1": "eu in"
+                    }
+                },
+                "friend": {
+                    "value": "<Circular reference to #/components/schemas/Pet detected>"
+                },
+                "tags": [
+                    {
+                        "id": -53618452,
+                        "name": "dolo"
+                    }
+                ],
+                "status": "available",
+                "petType": "non nulla velit consectetur"
+            },
+            "username": "John78",
+            "firstName": "John",
+            "lastName": "Smith",
+            "email": "john.smith@example.com",
+            "password": "// // // //",
+            "phone": "/+8-2-1773-1-60-0/",
+            "userStatus": -32835684
+        }
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684377766774
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
