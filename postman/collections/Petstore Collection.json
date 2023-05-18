@@ -2013,6 +2013,18 @@
 					"item": [
 						{
 							"name": "Finds Pets by status",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "754385a6-fe5c-4b42-80c3-0cfb30c5e2c5",
+										"exec": [
+											"pm.environment.get(\"variable_key\");"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "03702916-23b1-4527-ba7b-1d7286f1cda0",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -2056,9 +2068,9 @@
 									],
 									"query": [
 										{
-											"description": "(Required) Status values that need to be considered for filter",
 											"key": "status",
-											"value": "available"
+											"value": "available",
+											"description": "(Required) Status values that need to be considered for filter"
 										}
 									]
 								},
